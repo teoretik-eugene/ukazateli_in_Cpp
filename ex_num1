@@ -1,3 +1,4 @@
+/*Simple example*/
 #include <iostream>
 using namespace std;
 

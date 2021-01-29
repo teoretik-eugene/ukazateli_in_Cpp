@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+void sravn(int* j);
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	int* p;
+	int x;
+	p = &x;
+	printf("Введите 1 или 2: ");
+	cin >> *p;
+	sravn(p);
+
+	return 0;
+}
+
+void sravn(int* j) {
+	if (*j == 1) {
+		cout << "Ввели 1" << endl;
+	}
+	else {
+		if (*j == 2) {
+			cout << "Ввели 2";
+		}
+	}
+}
